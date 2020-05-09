@@ -1,0 +1,36 @@
+Employees
+-
+emp_no int PK
+birthdate date
+first_name VARCHAR
+last_name VARCHAR
+gender VARCHAR
+hire_date 
+
+Titles
+-
+emp_no int
+title VARCHAR
+
+
+Dept_manager
+-
+dept_no int
+emp_no int
+
+Salaries
+-
+emp_no int
+salary INTEGER
+
+
+Dept_employee
+-
+emp_no int
+dept_no int
+
+
+Departments
+-
+dept_no int PK
+dept_name
